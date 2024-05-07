@@ -16,7 +16,7 @@ jobs:
       - name: Install python deps
         run: |
           python -m pip install --upgrade pip
-          pip install requests python-owasp-zap-v2.4
+          pip install zaproxy
       - name: Get working directory
         run: echo $(PWD)
       - name: Build Image
